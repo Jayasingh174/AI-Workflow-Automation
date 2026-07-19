@@ -1,5 +1,9 @@
-echo venv/ > .gitignore
-echo .venv/ >> .gitignore
-echo __pycache__/ >> .gitignore
-echo *.pyc >> .gitignore
-echo .env >> .gitignore
+venv/
+.venv/
+.env
+.vscode/
+__pycache__/
+*.pyc
+uploads/
+vectorstore/
+temp_dxf/
