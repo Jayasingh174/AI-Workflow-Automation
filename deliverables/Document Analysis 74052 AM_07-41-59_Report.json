@@ -1,0 +1,37 @@
+{
+    "project_name": "Document Analysis 7:40:52 AM",
+    "timestamp": "2026-05-18T07:41:59.003533",
+    "summary": {
+        "success": 6,
+        "errors": 0
+    },
+    "file_details": [
+        {
+            "file": "BOQ for RFQ Test.xlsx",
+            "status": "processed as BOQ"
+        },
+        {
+            "file": "HPE-SDS-M-F1-FF-00.dwg",
+            "status": "processed as unstructured"
+        },
+        {
+            "file": "HPE-SDS-M-F2-FF-00.dwg",
+            "status": "processed as unstructured"
+        },
+        {
+            "file": "HPE-SDS-M-GF-FF-00.dwg",
+            "status": "processed as unstructured"
+        },
+        {
+            "file": "Reading RFQ.pdf",
+            "status": "processed as unstructured"
+        },
+        {
+            "file": "RFQ Doc.pdf",
+            "status": "processed as unstructured"
+        }
+    ],
+    "engineering_analysis": {
+        "message": "No machine-readable entities found to analyze."
+    }
+}
