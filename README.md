@@ -104,5 +104,5 @@ This repository fulfills the training series objectives with the following compo
 
 ## 👩‍💻 Author
 
-**Jaya Rajput** Full Stack Developer | AI/ML Enthusiast
+**Jaya Singh** Full Stack Developer | AI/ML Enthusiast
 ```"# AI-Workflow-Automation" 
