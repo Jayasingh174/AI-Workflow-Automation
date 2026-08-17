@@ -12,4 +12,5 @@ class DocumentAnalysis(Base):
     upload_date = Column(DateTime, default=datetime.utcnow)
     status = Column(String, default="pending") # pending, processing, completed, failed
     raw_text = Column(Text)
-    ai_analysis = Column(JSON) # Store the structured LLM output natively
+    # Store the structured LLM output natively
+    ai_analysis = Column(JSON) 
