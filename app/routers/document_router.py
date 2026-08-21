@@ -1,5 +1,5 @@
 """
-RFQ AI System - Document & Export Router
+RAG AI System - Document & Export Router
 Handles document listing, file deletion, and CSV conflict report generation.
 """
 
