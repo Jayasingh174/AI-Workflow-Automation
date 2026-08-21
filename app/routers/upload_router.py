@@ -1,6 +1,6 @@
 
 """
-RFQ AI System - Upload Router
+RAG AI System - Upload Router
 Handles single file processing and multi-file bundle uploads.
 """
 
