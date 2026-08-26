@@ -11,10 +11,10 @@ from pathlib import Path
 from typing import List
 from fastapi import APIRouter, UploadFile, File, Form, HTTPException
 
-from app.pipeline.rfq_pipeline import process_rfq, process_rfq_bundle
+from app.pipeline.rag_pipeline import process_rfq, process_rfq_bundle
 
 # --- Models ---
-from app.models.rfq_model import RFQRequest, RFQResponse
+from app.models.rag_model import RFQRequest, RFQResponse
 
 # --- Setup ---
 logger = logging.getLogger(__name__)
