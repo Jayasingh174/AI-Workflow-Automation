@@ -1,17 +1,15 @@
 import os
 
-
 def extract_text(file_path: str) -> str:
     """
     Extract text from TXT files.
-    Designed for RAG pipelines before chunking and embedding.
+    Designed for RAG pipelines before chunking & embedding.
     """
 
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Text file not found: {file_path}")
 
     try:
-
         with open(file_path, "r", encoding="utf-8") as f:
             text = f.read()
 
