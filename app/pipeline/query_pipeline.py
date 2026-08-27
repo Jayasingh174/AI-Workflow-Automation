@@ -1,5 +1,5 @@
 """
-RFQ AI System - Query Pipeline
+RAG AI System - Query Pipeline
 Implements the RAG (Retrieval-Augmented Generation) flow:
 1. Embed the user's question.
 2. Search and RERANK the vector database for relevant chunks.
