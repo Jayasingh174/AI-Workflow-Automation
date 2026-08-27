@@ -2,7 +2,7 @@ import ezdxf
 import subprocess
 import os
 
-# FIX #1: Removed the hardcoded ODA_PATH constant that lived here.
+# FIX 1: Removed the hardcoded ODA_PATH constant that lived here.
 # It's now sourced from config.py (which reads it from .env), so the
 # same code runs correctly on any machine as long as .env is set up
 # for that machine — no more editing source code per-developer.
