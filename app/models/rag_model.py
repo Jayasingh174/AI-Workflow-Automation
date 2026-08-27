@@ -8,7 +8,7 @@ class RFQRequest(BaseModel):
     file_path: str = Field(default="uploads/RFQ_Mall_Project.pdf", description="Path to the RFQ document file")
 
 class RFQResponse(BaseModel):
-    """
+    """ 
     Structured response for the Document Intelligence task.
     Matches the 'result' dictionary in rfq_pipeline.py.
     """
