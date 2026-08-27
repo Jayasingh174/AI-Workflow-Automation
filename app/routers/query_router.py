@@ -1,5 +1,5 @@
 """
-RFQ AI System - Query & Search Router
+RAG AI System - Query & Search Router
 Handles direct AI questions (Chatbot) and raw document search/retrieval operations.
 """
 
