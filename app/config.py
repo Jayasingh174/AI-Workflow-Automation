@@ -80,7 +80,6 @@ DOCS_FILE = os.path.join(SAVE_DIR, "docs.npy")
 # -------------------------------------------------
 # CAD / ODA File Converter settings
 # -------------------------------------------------
-# FIX #1: Moved out of cad_service.py's hardcoded constant.
 # The old code had a machine-specific absolute Windows path baked into
 # the source file (C:\Jaya\... then E:\Github\...) — it would break on
 # every other machine (teammate's PC, CI, Linux server, deployment box).
