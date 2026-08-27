@@ -5,7 +5,6 @@ import numpy as np
 from sentence_transformers import CrossEncoder
 from typing import List, Dict, Tuple
 
-# Import your existing services
 from app.brain.vector_service import vector_store
 from app.brain.embedding_service import embed_query  
 
