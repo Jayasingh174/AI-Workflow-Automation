@@ -1,4 +1,4 @@
-import fitz  # This is PyMuPDF
+import fitz 
 import logging
 import os
 
