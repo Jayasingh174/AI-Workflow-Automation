@@ -4,7 +4,6 @@ app/routers/agent_router.py
 
 Exposes the Multi-Agent RFQ pipeline, dynamic reasoning chat, and raw vector search.
 """
-
 import logging
 from typing import List, Dict, Any, Optional
 from fastapi import APIRouter, HTTPException
