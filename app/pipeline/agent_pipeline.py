@@ -129,7 +129,7 @@ async def search_documents(query: str) -> str:
     """
     query = query.strip()
     if not query:
-        return "Error: Search query cannot be empty."
+        return "Error: Search query can't be empty."
 
     logger.info(f"🛠️ Tool Execution: search_documents | Query: '{query}'")
     
